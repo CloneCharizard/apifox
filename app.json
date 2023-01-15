@@ -1,9 +1,9 @@
 {
     "name": "APIFOX API",
-    "description": "A free anime streaming restful API serving anime from GogoAnime.",
-    "keywords": ["express", "gogoanime", "scrapper", "api", "streaming"],
+    "description": "Anime Player API",
+    "keywords": ["express", "scrapper", "api", "streaming"],
     "website": "",
-    "repository": "https://github.com/CloneCharizard/betafox",
+    "repository": "https://github.com/CloneCharizard/apifox",
     "logo": "https://raw.githubusercontent.com/riimuru/gogoanime/main/images/image1.png",
 
     "env": {
