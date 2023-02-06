@@ -3,16 +3,6 @@ import { load } from 'cheerio';
 
 const livechartBase = `https://www.livechart.me/`;
 
-// Animix
-export {
-    fetchSearchAnimix,
-    fetchAnimixAllAnime,
-    fetchAnimixAnimeInfo,
-    fetchAnimixEpisodeInfo,
-    fetchAnimixEpisodeSource,
-    fetchAnimixRecentEpisodes
-} from './animixplay/animixplay.js';
-
 // Gogoanime
 export {
     fetchGogoAnimeInfo,
@@ -26,37 +16,6 @@ export {
     fetchZoroAnimeInfo,
     fetchZoroEpisodeSource
 } from './zoro/zoro.js';
-
-export {
-    fetchSearchCrunchyroll,
-    fetchCrunchyrollEpisodes,
-    fetchCrunchyrollSources
-} from './crunchyroll/crunchyroll.js';
-
-export {
-    fetchSearch9anime,
-    fetch9animeAnimeInfo,
-    fetch9animeEpisodeSources
-} from './9anime/9anime.js';
-
-export {
-    fetchAllanimeRecentEpisodes,
-    fetchSearchAllanime,
-    fetchAllanimeInfo,
-    fetchAllanimeEpisodeSource
-} from './allanime/allanime.js';
-
-export {
-    fetchSearchAnimepahe,
-    fetchAnimepaheEpisodeSource,
-    fetchAnimepaheInfo
-} from './animepahe/animepahe.js';
-
-export {
-    fetchSearchYugen,
-    fetchYugenAnimeInfo,
-    fetchYugenEpisodeSource
-} from './yugen/yugen.js';
 
 // GLOBAL ROUTES
 export const fetchSchedule = async () => {
