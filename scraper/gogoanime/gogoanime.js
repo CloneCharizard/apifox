@@ -5,7 +5,7 @@ const gogoBase = "https://gogoanime.bid/";
 const gogoBase2 = "https://gogoanime.tel/";
 const gogoajax = "https://ajax.gogo-load.com/";
 const episodeListPage = "https://ajax.gogo-load.com/ajax/load-list-episode";
-const goloadStreaming = "https://playgo1.cc/streaming.php"
+const goloadStreaming = "https://playgo1.cc/embedplus"
 
 const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36";
 const headerOption = { headers: { "User-Agent": USER_AGENT } };
