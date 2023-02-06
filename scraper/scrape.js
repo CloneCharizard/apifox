@@ -11,12 +11,6 @@ export {
     fetchSearchGogo
 } from './gogoanime/gogoanime.js';
 
-export {
-    fetchSearchZoro,
-    fetchZoroAnimeInfo,
-    fetchZoroEpisodeSource
-} from './zoro/zoro.js';
-
 // GLOBAL ROUTES
 export const fetchSchedule = async () => {
     try {
