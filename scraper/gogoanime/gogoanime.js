@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 
-const gogoBase = "https://gogoanime.lu/";
-const gogoBase2 = "https://gogoanime.gg/";
+const gogoBase = "https://gogoanime.bid/";
+const gogoBase2 = "https://gogoanime.tel/";
 const gogoajax = "https://ajax.gogo-load.com/";
 const episodeListPage = "https://ajax.gogo-load.com/ajax/load-list-episode";
 const goloadStreaming = "https://goload.pro/streaming.php"
@@ -165,7 +165,6 @@ export const fetchGogoanimeEpisodeSource = async ({ episodeId }) => {
 
         return {
             Referer: gogoWatchLink.href,
-            sources: sources,
             sources_bk: sources_bk
         }
     } catch (err) {
