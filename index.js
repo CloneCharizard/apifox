@@ -14,16 +14,10 @@ app.use(express.json())
 import gogoRoutes from './Routes/Gogoanime.js';
 
 app.use('/gogoanime', gogoRoutes);
-app.use('/animix', animixRoutes);
-app.use('/zoro', zoroRoutes);
-app.use('/allanime', allanimeRoutes);
-app.use('/animepahe', animepaheRoutes);
-app.use('/yugen', yugenRoutes);
-app.use(['/nineanime', '/9anime'], nineanimeRoutes);
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('Welcome to FoxyAPI!')
+    res.send('Welcome to Mimikyu's API Drive!!')
 });
 
 app.get('/schedule', async (req, res) => {

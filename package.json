@@ -1,19 +1,16 @@
 {
   "name": "anime-api",
-  "version": "2.3.0",
-  "description": "A simple API to search, scrape popular and recent animes, streaming links and more.",
+  "version": "2.2.0",
+  "description": "Mimikyu's Drive API for Source files!",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "keywords": [
-    "anime-streaming",
-    "anime-api",
-    "anime",
-    "gogoanime"
+    "mimikyu-api"
   ],
-  "author": "IGRohan",
+  "author": "Mimikyu",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
